@@ -1,0 +1,29 @@
+# Xcode
+DerivedData/
+build/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+
+# Swift Package Manager
+/.build/
+/Packages/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+
+# System
+.DS_Store
+*.swp
+
+# Firebase
+GoogleService-Info.plist
+
+# Other
+.env
