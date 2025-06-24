@@ -10,7 +10,7 @@ struct RootView: View {
     @StateObject var appState = AppState()
     var body: some View {
         if appState.hasCompletedOnboarding {
-           EmptyView()
+            HomeView()
         } else {
             OnboardingFlowView()
                 .environmentObject(appState)

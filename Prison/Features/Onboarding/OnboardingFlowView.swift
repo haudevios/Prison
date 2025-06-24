@@ -10,7 +10,6 @@ import SwiftUI
 enum OnboardingStep {
     case languageSelection
     case introSlides
-    case characterSelection
     case done
 }
 
@@ -26,11 +25,12 @@ struct OnboardingFlowView: View {
                         currentStep = .introSlides
                     })
                 case .introSlides:
-                    IntroScreensView()
-                case .characterSelection:
-                    EmptyView()
+                    IntroScreensView(onNext: {
+                        currentStep = .done
+                        appState.hasCompletedOnboarding = true
+                    })
                 case .done:
-                    EmptyView()
+                    HomeView()
                 }
             }
     }

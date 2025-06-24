@@ -1,0 +1,158 @@
+[
+
+  {
+    "id": "1",
+    "name": "Young-Hee",
+    "avatar": "avatar/player_boss.png",
+    "video": "video/player_boss.mp4"
+  },
+  {
+    "id": "3",
+    "name": "Hwang In-ho",
+    "avatar": "avatar/player_001.png",
+    "video": "video/player_001.mp4"
+  },
+  {
+    "id": "2",
+    "name": "Seong Gi-hun",
+    "avatar": "avatar/player_456.png",
+    "video": "video/player_456.mp4"
+  },
+  {
+    "id": "4",
+    "name": "Thanos",
+    "avatar": "avatar/player_230.png",
+    "video": "video/player_230.mp4"
+  },
+  {
+    "id": "5",
+    "name": "BOT",
+    "avatar": "avatar/player_bot.png",
+    "video": "video/player_bot.mp4"
+  },
+  {
+    "id": "6",
+    "name": "The Recruiter",
+    "avatar": "avatar/player_the_recruiter.png",
+    "video": "video/player_the_recruiter.mp4"
+  },
+  {
+    "id": "7",
+    "name": "Player 132",
+    "avatar": "avatar/player_132.png",
+    "video": "video/player_132.mp4"
+  },
+  {
+    "id": "8",
+    "name": "Player 003",
+    "avatar": "avatar/player_003.png",
+    "video": "video/player_003.mp4"
+  },
+  {
+    "id": "9",
+    "name": "Cho Hyun-ju",
+    "avatar": "avatar/player_120.png",
+    "video": "video/player_120.mp4"
+  },
+  {
+    "id": "10",
+    "name": "Player 125",
+    "avatar": "avatar/player_125.png",
+    "video": "video/player_125.mp4"
+  },
+  {
+    "id": "11",
+    "name": "Player 196",
+    "avatar": "avatar/player_196.png",
+    "video": "video/player_196.mp4"
+  },
+  {
+    "id": "12",
+    "name": "Lee Myung-gi",
+    "avatar": "avatar/player_333.png",
+    "video": "video/player_333.mp4"
+  },
+  {
+    "id": "13",
+    "name": "Kang Dae-ho",
+    "avatar": "avatar/player_388.png",
+    "video": "video/player_388.mp4"
+  },
+  {
+    "id": "14",
+    "name": "Tik Toker",
+    "avatar": "avatar/player_457.png",
+    "video": "video/player_457.mp4"
+  },
+  {
+    "id": "15",
+    "name": "Full Characters",
+    "avatar": "avatar/player_full.png",
+    "video": "video/player_full.mp4"
+  },
+  {
+    "id": "16",
+    "name": "Lionel Messi",
+    "avatar": "avatar/player_messi.png",
+    "video": "video/player_messi.mp4"
+  },
+  {
+    "id": "17",
+    "name": "Lionel Messi",
+    "avatar": "avatar/player_messi_2.png",
+    "video": "video/player_messi_2.mp4"
+  },
+  {
+    "id": "18",
+    "name": "Cristiano Ronaldo",
+    "avatar": "avatar/player_ronaldo.png",
+    "video": "video/player_ronaldo.mp4"
+  },
+  {
+    "id": "19",
+    "name": "VIP",
+    "avatar": "avatar/player_vip.png",
+    "video": "video/player_vip.mp4"
+  },
+  {
+    "id": "20",
+    "name": "Cristiano Ronaldo",
+    "avatar": "avatar/player_ronaldo_2.png",
+    "video": "video/player_ronaldo_2.mp4"
+  },
+  {
+    "id": "21",
+    "name": "Sprunky",
+    "avatar": "avatar/Squid_Sprunky.png",
+    "video": "video/Squid_Sprunky.mp4",
+    "isHot": true
+  },
+  {
+    "id": "22",
+    "name": "Young-hee",
+    "avatar": "avatar/BOSS_v2.png",
+    "video": "video/BOSS_v2.mp4",
+    "isHot": true
+  },
+  {
+    "id": "23",
+    "name": "Cheol-su",
+    "avatar": "avatar/BOSS_v3.png",
+    "video": "video/BOSS_v3.mp4",
+    "isHot": true
+  },
+  {
+    "id": "24",
+    "name": "Young-Hee Angry",
+    "avatar": "avatar/BOSS_v4.png",
+    "video": "video/BOSS_v4.mp4",
+    "isHot": true
+  },
+  {
+    "id": "25",
+    "name": "Young-Hee Scared",
+    "avatar": "avatar/BossBaby.png",
+    "video": "video/BossBaby.mp4",
+    "isHot": true
+  }
+]

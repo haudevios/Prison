@@ -1,12 +1,12 @@
 import SwiftUI
 
-struct LanguageSelectionView: View {
+public struct LanguageSelectionView: View {
     let onNext: () -> Void
     @EnvironmentObject var appState: AppState
    
     @StateObject private var viewModel = LanguageSelectionViewModel()
     
-    var body: some View {
+    public var body: some View {
         GeometryReader { geometry in
             ZStack {
                 Image("back")

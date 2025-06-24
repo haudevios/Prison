@@ -10,7 +10,4 @@ import SwiftUI
 class AppState: ObservableObject {
     @AppStorage("hasCompletedOnboarding") var hasCompletedOnboarding: Bool = false
     @Published var currentLanguage: String = "en"
-    init() {
-            print("AppState initialized")
-        }
 }
