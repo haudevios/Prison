@@ -24,8 +24,8 @@ struct HorizontalCategoryList: View {
                             WebImage(url: URL(string: "https://game.umaxsoft.com/prison/" + character.avatar)) { image in
                                 image
                                     .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 120, height: 120)
+                                    .scaledToFit()
+                                    .frame(width: UIScreen.main.bounds.width * (100/360), height: UIScreen.main.bounds.width * (100/360))
                                     .clipped()
                                     .cornerRadius(12)
                             } placeholder: {
@@ -35,9 +35,9 @@ struct HorizontalCategoryList: View {
                         .scaleEffect(scale) 
                         .animation(.easeOut(duration: 0.3), value: scale)
                         .shadow(color: .black.opacity(0.2), radius: 5, x: 0, y: 4)
-                        .frame(width: 120, height: 130)
+                        .frame(width: UIScreen.main.bounds.width * (100/360), height: UIScreen.main.bounds.width * (100/360))
                     }
-                    .frame(width: 120, height: 150)
+                    .frame(width: UIScreen.main.bounds.width * (100/360), height: UIScreen.main.bounds.width * (100/360))
                 }
             }
             .padding(.horizontal, 16)

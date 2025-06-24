@@ -10,6 +10,7 @@ import SwiftUI
 public struct FakeViewListView: View {
     @StateObject private var viewModel = FakeViewListViewModel()
     @Environment(\.dismiss) var dismiss
+    @State private var showSheet = false
 
     public var body: some View {
         GeometryReader { geometry in
@@ -42,6 +43,9 @@ public struct FakeViewListView: View {
                             .resizable()
                             .frame(width: 30, height: 20)
                             .foregroundColor(.white)
+                            .onTapGesture {
+                                showSheet = true
+                            }
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 ForEach(viewModel.categories, id: \.self) { category in
@@ -94,6 +98,12 @@ public struct FakeViewListView: View {
         .onAppear {
             viewModel.loadData(fromLocal: true)
         }
+        .sheet(isPresented: $showSheet) {
+            CategoriesSheetView(showSheet: $showSheet, viewModel: viewModel)
+                .presentationDetents([.fraction(0.33)])
+                .presentationDragIndicator(.visible)
+        }
+        
     }
 }
 
