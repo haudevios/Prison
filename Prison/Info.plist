@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>UIAppFonts</key>
+    <array>
+        <string>font_id_contact.ttf</string>
+        <string>font_logo.ttf</string>
+        <string>font_text.ttf</string>
+    </array>
+    <key>NSCameraUsageDescription</key>
+    <string>Ứng dụng cần truy cập camera để thực hiện cuộc gọi video.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Ứng dụng cần truy cập micro để thực hiện cuộc gọi video.</string>
+
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict/>
+	</array>
+</dict>
+</plist>

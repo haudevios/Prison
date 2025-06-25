@@ -9,9 +9,7 @@ import SwiftUI
 import Firebase
 @main
 struct PrisonApp: App {
-    init() {
-       // FirebaseApp.configure()
-    }
+
     var body: some Scene {
         WindowGroup {
             SplashView()
