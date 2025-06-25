@@ -131,6 +131,5 @@ public struct CallVideoDirectView: View {
         viewModel.stopTimer()
         viewModel.stopVideo()
         characterViewModel.endCall()
-        dismiss()
     }
 }
